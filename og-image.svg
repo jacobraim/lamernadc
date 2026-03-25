@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#3E0A0A"/>
+
+  <!-- Subtle radial texture -->
+  <radialGradient id="bg-glow" cx="35%" cy="40%" r="55%">
+    <stop offset="0%" stop-color="#5C1010" stop-opacity="0.8"/>
+    <stop offset="100%" stop-color="#3E0A0A" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1200" height="630" fill="url(#bg-glow)"/>
+
+  <!-- Left: Logo mark (scaled up) -->
+  <!-- Head -->
+  <circle cx="260" cy="195" r="46" fill="none" stroke="#D4AE78" stroke-width="2.2"/>
+  <!-- Bodice silhouette -->
+  <path d="M196 244 Q186 300 196 356 Q224 374 260 378 Q296 374 324 356 Q334 300 324 244 Q298 232 260 229 Q222 232 196 244Z" fill="none" stroke="#D4AE78" stroke-width="2.4"/>
+  <!-- Bodice grid horizontal -->
+  <path d="M202 262 Q260 272 318 262" fill="none" stroke="#D4AE78" stroke-width="1.2"/>
+  <path d="M198 280 Q260 291 322 280" fill="none" stroke="#D4AE78" stroke-width="1.1"/>
+  <path d="M197 298 Q260 309 323 298" fill="none" stroke="#D4AE78" stroke-width="1.0"/>
+  <path d="M198 316 Q260 327 322 316" fill="none" stroke="#D4AE78" stroke-width="1.0"/>
+  <!-- Bodice grid vertical -->
+  <path d="M226 238 Q222 295 216 354" fill="none" stroke="#D4AE78" stroke-width="0.9"/>
+  <path d="M243 235 Q241 295 238 356" fill="none" stroke="#D4AE78" stroke-width="0.9"/>
+  <path d="M260 234 L260 358" fill="none" stroke="#D4AE78" stroke-width="0.9"/>
+  <path d="M277 235 Q279 295 282 356" fill="none" stroke="#D4AE78" stroke-width="0.9"/>
+  <path d="M294 238 Q298 295 304 354" fill="none" stroke="#D4AE78" stroke-width="0.9"/>
+  <!-- Arms -->
+  <path d="M196 310 Q172 322 160 340 Q167 353 186 358 Q218 366 260 368" fill="none" stroke="#D4AE78" stroke-width="2"/>
+  <path d="M324 310 Q348 322 360 340 Q353 353 334 358 Q302 366 260 368" fill="none" stroke="#D4AE78" stroke-width="2"/>
+  <!-- Collar -->
+  <path d="M222 242 Q260 256 298 242" fill="none" stroke="#D4AE78" stroke-width="1.6"/>
+  <path d="M216 254 Q260 270 304 254" fill="none" stroke="#D4AE78" stroke-width="1.2"/>
+  <!-- Flower stem -->
+  <line x1="260" y1="368" x2="260" y2="432" stroke="#D4AE78" stroke-width="1.8"/>
+  <!-- Leaves -->
+  <path d="M260 400 Q238 388 230 398 Q235 412 260 406" fill="none" stroke="#D4AE78" stroke-width="1.4"/>
+  <path d="M260 410 Q282 398 290 408 Q285 422 260 416" fill="none" stroke="#D4AE78" stroke-width="1.4"/>
+  <!-- Bloom -->
+  <circle cx="260" cy="448" r="20" fill="none" stroke="#D4AE78" stroke-width="1.8"/>
+  <path d="M260 428 Q268 438 260 448 Q252 438 260 428Z" fill="none" stroke="#D4AE78" stroke-width="1.2"/>
+  <path d="M280 448 Q270 440 260 448 Q270 456 280 448Z" fill="none" stroke="#D4AE78" stroke-width="1.2"/>
+  <path d="M260 468 Q252 458 260 448 Q268 458 260 468Z" fill="none" stroke="#D4AE78" stroke-width="1.2"/>
+  <path d="M240 448 Q250 456 260 448 Q250 440 240 448Z" fill="none" stroke="#D4AE78" stroke-width="1.2"/>
+  <circle cx="260" cy="448" r="5" fill="none" stroke="#D4AE78" stroke-width="1.4"/>
+
+  <!-- Decorative outer ring around logo -->
+  <circle cx="260" cy="340" r="218" fill="none" stroke="#D4AE78" stroke-width="0.7" stroke-dasharray="5 8"/>
+
+  <!-- Divider line -->
+  <line x1="530" y1="120" x2="530" y2="510" stroke="#D4AE78" stroke-width="0.8" stroke-opacity="0.35"/>
+
+  <!-- Right: Text content -->
+  <!-- Eyebrow label -->
+  <text x="590" y="210" font-family="'Jost', sans-serif" font-size="16" font-weight="400" letter-spacing="8" fill="#B8965A" text-anchor="start" text-transform="uppercase">WASHINGTON, DC  ·  EST. 2026</text>
+
+  <!-- Main title -->
+  <text x="584" y="318" font-family="Georgia, 'Times New Roman', serif" font-size="112" font-weight="300" letter-spacing="14" fill="#F2EBD9" text-anchor="start">LA MERNA</text>
+
+  <!-- Divider rule -->
+  <line x1="590" y1="348" x2="800" y2="348" stroke="#B8965A" stroke-width="1.2"/>
+
+  <!-- Tagline -->
+  <text x="590" y="392" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="300" letter-spacing="1" fill="#E0D4BC" fill-opacity="0.8" font-style="italic" text-anchor="start">Your neighborhood Chicago-Italian</text>
+  <text x="590" y="422" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="300" letter-spacing="1" fill="#E0D4BC" fill-opacity="0.8" font-style="italic" text-anchor="start">restaurant and tavern.</text>
+
+  <!-- Address -->
+  <text x="590" y="482" font-family="'Jost', sans-serif" font-size="14" font-weight="400" letter-spacing="4" fill="#B8965A" fill-opacity="0.8" text-anchor="start">2153 P STREET NW  ·  LAMERNADC.COM</text>
+
+  <!-- Bottom border accent -->
+  <rect x="0" y="618" width="1200" height="12" fill="#B8965A" fill-opacity="0.3"/>
+  <rect x="0" y="624" width="1200" height="3" fill="#B8965A" fill-opacity="0.6"/>
+</svg>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Events at La Merna DC — live music, chef's tasting nights, wine dinners, and more." />
+  <title>Events — La Merna DC</title>
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="events.css" />
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav id="nav">
+    <a href="index.html" class="nav-logo">La Merna</a>
+    <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false" id="nav-toggle">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#menu">Menu</a></li>
+      <li><a href="events.html" class="nav-active">Events</a></li>
+      <li><a href="index.html#events">Private Dining</a></li>
+      <li><a href="index.html#contact">Visit</a></li>
+    </ul>
+    <a href="index.html#contact" class="nav-reserve">Reserve a Table</a>
+  </nav>
+
+  <!-- ── PAGE HERO ── -->
+  <header class="events-hero">
+    <div class="events-hero-texture" aria-hidden="true"></div>
+    <p class="hero-ornament" style="animation:none;">Happening at La Merna</p>
+    <h1 class="events-hero-title">Events</h1>
+    <div class="hero-divider" style="animation:none;margin:28px auto;"></div>
+    <p class="events-hero-sub">Live music, chef's tastings, seasonal celebrations &amp; more.</p>
+  </header>
+
+  <!-- ── CALENDAR CONTROLS ── -->
+  <div class="cal-controls">
+    <div class="cal-nav">
+      <button class="cal-nav-btn" id="prev-month" aria-label="Previous month">&#8592;</button>
+      <h2 class="cal-month-label" id="month-label">April 2026</h2>
+      <button class="cal-nav-btn" id="next-month" aria-label="Next month">&#8594;</button>
+    </div>
+    <div class="cal-view-toggle">
+      <button class="view-btn view-btn--active" id="btn-grid" aria-pressed="true">Grid</button>
+      <button class="view-btn" id="btn-agenda" aria-pressed="false">Agenda</button>
+    </div>
+  </div>
+
+  <!-- ── CATEGORY FILTERS ── -->
+  <div class="cal-filters" role="group" aria-label="Filter by event type">
+    <button class="filter-btn filter-btn--active" data-category="all">All</button>
+    <button class="filter-btn" data-category="music">Live Music</button>
+    <button class="filter-btn" data-category="tasting">Chef's Tasting</button>
+    <button class="filter-btn" data-category="seasonal">Seasonal</button>
+    <button class="filter-btn" data-category="holiday">Holiday</button>
+    <button class="filter-btn" data-category="buyout">Private Buyout</button>
+  </div>
+
+  <!-- ── GRID VIEW ── -->
+  <div class="cal-grid-wrap" id="view-grid">
+    <div class="cal-grid">
+      <div class="cal-dow">Sun</div>
+      <div class="cal-dow">Mon</div>
+      <div class="cal-dow">Tue</div>
+      <div class="cal-dow">Wed</div>
+      <div class="cal-dow">Thu</div>
+      <div class="cal-dow">Fri</div>
+      <div class="cal-dow">Sat</div>
+    </div>
+    <div class="cal-days" id="cal-days"></div>
+  </div>
+
+  <!-- ── AGENDA VIEW ── -->
+  <div class="cal-agenda-wrap" id="view-agenda" hidden>
+    <div class="cal-agenda" id="cal-agenda"></div>
+  </div>
+
+  <!-- ── EVENT POPUP ── -->
+  <div class="popup-overlay" id="popup-overlay" role="dialog" aria-modal="true" aria-labelledby="popup-title" hidden>
+    <div class="popup">
+      <button class="popup-close" id="popup-close" aria-label="Close">&times;</button>
+      <div class="popup-category-badge" id="popup-badge"></div>
+      <p class="popup-date" id="popup-date"></p>
+      <h2 class="popup-title" id="popup-title"></h2>
+      <div class="popup-divider"></div>
+      <p class="popup-time" id="popup-time"></p>
+      <p class="popup-desc" id="popup-desc"></p>
+      <div class="popup-details" id="popup-details"></div>
+      <div class="popup-actions">
+        <a href="index.html#contact" class="btn btn--primary popup-cta" id="popup-cta">Reserve Your Spot</a>
+        <button class="btn btn--outline popup-share" id="popup-share">Share Event</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer" style="margin-top:80px;">
+    <span class="footer-logo">La Merna &nbsp;·&nbsp; Washington, DC</span>
+    <nav class="footer-siblings" aria-label="Sibling restaurants">
+      <a href="https://www.unionpieburgerandfry.com/" target="_blank" rel="noopener" class="footer-sibling">Union Pie</a>
+      <a href="https://dogdazedc.com/" target="_blank" rel="noopener" class="footer-sibling">Dog Daze</a>
+    </nav>
+    <span class="footer-copy">© 2026 La Merna DC</span>
+  </footer>
+
+  <script src="events.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
