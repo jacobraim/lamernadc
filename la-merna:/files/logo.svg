@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#3E0A0A"/>
+
+  <!-- Figure: head -->
+  <circle cx="200" cy="108" r="28" fill="none" stroke="#D4AE78" stroke-width="2"/>
+
+  <!-- Figure: collar/neckline geometric detail -->
+  <path d="M172 136 Q200 148 228 136" fill="none" stroke="#D4AE78" stroke-width="1.6"/>
+  <path d="M168 144 Q200 158 232 144" fill="none" stroke="#D4AE78" stroke-width="1.2"/>
+
+  <!-- Figure: torso / bodice grid lines (horizontal) -->
+  <path d="M158 162 Q200 170 242 162" fill="none" stroke="#D4AE78" stroke-width="1.2"/>
+  <path d="M154 176 Q200 185 246 176" fill="none" stroke="#D4AE78" stroke-width="1.1"/>
+  <path d="M152 190 Q200 200 248 190" fill="none" stroke="#D4AE78" stroke-width="1.0"/>
+  <path d="M154 204 Q200 214 246 204" fill="none" stroke="#D4AE78" stroke-width="1.0"/>
+
+  <!-- Figure: torso / bodice grid lines (vertical) -->
+  <path d="M170 154 Q166 185 160 218" fill="none" stroke="#D4AE78" stroke-width="0.9"/>
+  <path d="M185 152 Q183 185 180 220" fill="none" stroke="#D4AE78" stroke-width="0.9"/>
+  <path d="M200 152 L200 222" fill="none" stroke="#D4AE78" stroke-width="0.9"/>
+  <path d="M215 152 Q217 185 220 220" fill="none" stroke="#D4AE78" stroke-width="0.9"/>
+  <path d="M230 154 Q234 185 240 218" fill="none" stroke="#D4AE78" stroke-width="0.9"/>
+
+  <!-- Figure: outer bodice silhouette -->
+  <path d="M148 152 Q140 185 148 220 Q170 235 200 238 Q230 235 252 220 Q260 185 252 152 Q228 142 200 140 Q172 142 148 152Z" fill="none" stroke="#D4AE78" stroke-width="1.8"/>
+
+  <!-- Figure: arms resting forward -->
+  <path d="M148 200 Q128 210 118 224 Q124 234 140 238 Q165 244 200 244" fill="none" stroke="#D4AE78" stroke-width="1.6"/>
+  <path d="M252 200 Q272 210 282 224 Q276 234 260 238 Q235 244 200 244" fill="none" stroke="#D4AE78" stroke-width="1.6"/>
+
+  <!-- Flower: stem -->
+  <path d="M200 244 L200 292" fill="none" stroke="#D4AE78" stroke-width="1.4"/>
+
+  <!-- Flower: leaves -->
+  <path d="M200 270 Q184 260 178 268 Q182 278 200 274" fill="none" stroke="#D4AE78" stroke-width="1.2"/>
+  <path d="M200 278 Q216 268 222 276 Q218 286 200 282" fill="none" stroke="#D4AE78" stroke-width="1.2"/>
+
+  <!-- Flower: bloom (rose petals) -->
+  <circle cx="200" cy="304" r="14" fill="none" stroke="#D4AE78" stroke-width="1.6"/>
+  <path d="M200 290 Q206 296 200 304 Q194 296 200 290Z" fill="none" stroke="#D4AE78" stroke-width="1.1"/>
+  <path d="M214 304 Q208 298 200 304 Q208 310 214 304Z" fill="none" stroke="#D4AE78" stroke-width="1.1"/>
+  <path d="M200 318 Q194 312 200 304 Q206 312 200 318Z" fill="none" stroke="#D4AE78" stroke-width="1.1"/>
+  <path d="M186 304 Q192 310 200 304 Q192 298 186 304Z" fill="none" stroke="#D4AE78" stroke-width="1.1"/>
+  <!-- Center -->
+  <circle cx="200" cy="304" r="4" fill="none" stroke="#D4AE78" stroke-width="1.2"/>
+
+  <!-- Decorative border ring -->
+  <circle cx="200" cy="200" r="178" fill="none" stroke="#D4AE78" stroke-width="0.8" stroke-dasharray="4 6"/>
+  <circle cx="200" cy="200" r="185" fill="none" stroke="#D4AE78" stroke-width="0.4"/>
+</svg>
